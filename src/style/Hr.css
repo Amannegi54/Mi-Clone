@@ -1,0 +1,24 @@
+.hr{
+    height: 0.1vmax;
+    width: 83%;
+    background-color: #696969;
+}
+
+.hr-sub{
+    color: #696969;
+    position: relative;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    background-color: rgb(237, 237, 237);;
+    padding: 0px 55px;
+    top: -25px;
+    text-transform: uppercase;
+}
+
+.Brack-comp{
+    margin-top: 5.5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

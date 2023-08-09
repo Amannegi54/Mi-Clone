@@ -1,0 +1,41 @@
+input{
+    width: 21vmax;
+    height: 3vmax;
+    border: 1px solid #959595;
+}
+
+.right-arrow{
+    position: relative;
+    left: -2vmax;
+}
+
+.bold-text{
+    font-size: 1.4vmax;
+    font-weight: 500;
+}
+.text-p{
+    font-size: 1vmax;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+div>svg:hover{
+    cursor: pointer;
+    fill: #3b3b3b;
+}
+
+.PreFooter-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.prefoot-1{
+    color:rgba(140, 140, 140, 0.862);
+}
+
+.prefoot-1:hover{
+    cursor: pointer;
+    color: black;
+}

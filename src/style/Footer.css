@@ -1,0 +1,52 @@
+.footer-container{
+    padding-left: 5rem;
+}
+
+.Footer-part{
+    width: 12.68vw;
+}
+
+.Footer-Links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4vmax;
+}
+
+.Heading{
+    padding-left: 1vmax;
+    text-transform: uppercase;
+    padding-bottom: 1.5vmax;
+}
+
+.FooterChat-Head{
+    font-size:0.8vmax ;
+    padding-top: 4vmax;
+    padding-bottom: 1.5vmax;
+}
+
+.button{
+    color: white;
+    width: 11vmax;
+    height: 3vmax;
+    font-weight: 300;
+    font-size: 1.2vmax;
+    border: 1px solid white;
+    text-transform: uppercase;
+    background-color: rgb(33,37,41);
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out 0.5s;
+    color: black;
+} 
+
+div>p{
+    font-size: 0.9rem;
+}
+
+.hr{
+    height: 0.1rem;
+    background-color: #9e9e9ec4;
+    width: 90%;
+}

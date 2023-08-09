@@ -1,0 +1,24 @@
+.font-size{
+    font-size:1vmax;
+    font-weight: 700;
+}
+
+.orange{
+    color: rgb(255, 60, 0);
+}
+
+.font-weight{
+    font-weight: 700;
+}
+
+.fs-6{
+    font-size: 1.2vmax;
+}
+
+.gray{
+color: #4a4a4a;
+}
+
+.width{
+    width: 44.34vw;
+}

@@ -1,0 +1,14 @@
+.StarProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+}
+
+div>a>img:hover{
+    box-shadow: 3px 3px 20px rgb(168, 167, 167);
+}
+
+.StarProduct-left{
+    width: 50%;
+}

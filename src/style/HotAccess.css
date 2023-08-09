@@ -1,0 +1,73 @@
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 3vmax 0px;
+}
+
+li{
+    list-style: none;
+    padding: 0vmax 1vmax;
+}
+
+li>a{
+    text-decoration: none;
+    color: #4f4d4d;
+    font-weight: 500;
+}
+
+li>a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.HotAccessories-container{
+    display: flex;
+    align-items:top;
+    gap: 1vmax;
+}
+.HotAccessories-Items{
+    display: grid;
+    grid-template-columns:20.78vw 20.78vw 20.78vw;
+}
+
+.HotAccessories-Item-contant{
+    background: white;
+    width: 19vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 6px 0px;
+}
+
+
+.HotAccessories-Items-img{
+    width: 16.53vw;
+    background-color: white;
+}
+
+.HotAccessories-cover-img{
+    width: 23.12vw;
+}
+.HotAccessories-cover-img:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 10px 3px rgb(200 200 200 / 80%);
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s ;
+}
+
+.BrowseMore{
+    font-size: 2.6vmax;
+    color: orangered;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.arrow{
+    fill: orangered;
+    left: 4vmax;
+    position: relative;
+}

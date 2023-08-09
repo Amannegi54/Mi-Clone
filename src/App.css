@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+.App{
+  background-color: rgb(237, 237, 237);
+}
+
+.onHover:hover{
+  cursor: pointer;
+  box-shadow: 4px 4px 10px 3px rgb(200 200 200 / 80%);
+  transform: scale(1.05);
+  transition: ease-in-out 0.3s ;
+}
+
+fs-6{
+  font-size: 0.9rem;
+}
+fs-7{
+  font-size: 1.5em;
+}

@@ -1,0 +1,57 @@
+.preNav{
+    display: grid;
+    background-color: rgb(29,28,28);
+    grid-template-columns:5fr 2fr ;
+    color: white;
+}
+
+.preNav > div{
+    padding: 9px 4vmax;
+}
+
+div>a{
+    color: rgb(144, 144, 144);
+    text-decoration: none;
+    padding: 0px 1vmax;
+    font-size: 1vmax;
+    font-weight:300 ;
+}
+
+div>a:hover{
+    color: white;
+}
+
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#preNav_left{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:885px) {
+    .preNav > div{
+        padding: 8px 9vmin;
+    }
+    div>a{
+        padding: 0px 4px;
+    font-size: 11px;
+    }
+    .preNav{
+        grid-template-columns: 4fr 2fr;
+    }
+}
+@media screen and (max-width:691px){
+#preNav_left{
+    display: none;
+}
+.preNav{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+}

@@ -1,0 +1,54 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1vmax;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid #c0bfbf ;
+}
+
+.logo{
+    background-color: orangered;
+    border-radius: 19px;
+    width: 56px;
+    height: 58px;
+    overflow: hidden;
+    position: relative;
+    right: 2vmax;
+}
+
+.logoImg{
+    right: 5.3vmax;
+    position: relative;
+}
+
+.logoImg:hover{
+    right: 1vmax;
+    transition: ease-in-out 0.5s;
+}
+
+.nav-links{
+    color: black;
+    font-size: 1.2vmax;
+    font-weight: 400;
+}
+.nav-links:hover{
+    color: orangered;
+}
+
+
+.Search_bar{
+    display: flex;
+    padding-left: 8vmax;
+}
+
+.Search_bar > input{
+    border: none;
+    outline: none;
+    font-size: 1.1vmax;
+    width: 15vmax;
+    color: gray;
+    border-bottom: 2px solid #afadad;
+}
